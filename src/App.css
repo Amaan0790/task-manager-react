@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    min-height: 10vh;
+}
+
+.main-container {
+    min-height: 73vh;
+    width: 80%;
+    margin: auto;
+}
+
+.footer-container {
+    min-height: 5vh;
+}
+
+.edit-modal {
+    width: 70%;
+}
+
+.bg-grey {
+    background-color: rgba(134, 119, 119, 0.676);
+}
+
+.bg-button {
+    background-color: inherit !important;
+}
+
+.my-card {
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.my-card:hover {
+    background-color: rgba(128, 128, 128, 0.3);
+    transform: scale(1.05);
+    /* Increase size */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    /* Optional shadow for depth */
+}
+
+.dashboard-container {
+    height: 100%;
+}
+
+.task-card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-card:hover {
+    transform: scale(1.05);
+    /* Increase size */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    /* Optional shadow for depth */
+}
+
+.green:hover {
+    background-color: rgba(0, 128, 0, 0.45);
+}
+
+.red:hover {
+    background-color: rgba(255, 0, 0, 0.45);
+}
+
+.yellow:hover {
+    background-color: rgba(255, 255, 0, 0.45);
+}
